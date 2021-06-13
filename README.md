@@ -8,5 +8,5 @@
 2. Для запуска напишите:
 
 ```html
-    <code>'ruby 8ball.rb'</code>
+    ruby 8ball.rb
 ```
