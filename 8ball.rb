@@ -1,15 +1,14 @@
-current_path = File.dirname(__FILE__)
-file_path = current_path + '/data/answers.txt'
+file_path = File.join(__dir__, 'data/answers.txt')
 
 answers = File.readlines(file_path, encoding: 'UTF-8', chomp: true)
 
-array = [
-  "Привет, дорогой друг. Отвечаю на твой вопрос...",
-  "Кто вопрошает, тот получит ответ:",
-  "Здравствуй, смертный. Сегодня для тебя такой ответ:"
+greetings = [
+  'Привет, дорогой друг. Отвечаю на твой вопрос...',
+  'Кто вопрошает, тот получит ответ:',
+  'Здравствуй, смертный. Сегодня для тебя такой ответ:'
 ]
 
-puts array.sample
+puts greetings.sample
 sleep 2
 puts
 puts answers.sample
