@@ -1,4 +1,4 @@
-file_path = File.join(__dir__, 'data/answers.txt')
+file_path = File.join(__dir__, 'data', 'answers.txt')
 
 answers = File.readlines(file_path, encoding: 'UTF-8', chomp: true)
 
